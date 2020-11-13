@@ -1,4 +1,3 @@
-
 # CS627_SQL
 SQL with Python Project Repository
 
@@ -73,3 +72,5 @@ The transaction should be consistent and atomic before, on and after running the
 4. Add fk_Stock_prodid constraint from Stock Table  
 The ACID properties of the transaction is managed here by setting autocommit = False, then executig the above transactions, committing the transacions to the datbase if there are no exceptions/errors. If htere are error(s), rollback the transaction o previous state.  
 On running the select query, the transaction's validity could be verified.
+    
+
